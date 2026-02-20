@@ -34,6 +34,6 @@ K리그 경기 내 최종 패스 좌표 예측 AI 모델 개발
      * stage1 OOF 기반 Residual(dx, dy) 학습 및 예측
      * 최종 이동거리(final_dx, final_dy) = stage1 + stage2
 3. 최종 좌표 복원
-   -원 start_x + final_dx
+   - 원 start_x + final_dx
    - 원 start_y + final_dy
 4. Fold별 test 예측 평균 앙상블 통한 최종 좌표 추론
